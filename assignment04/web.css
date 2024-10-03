@@ -1,0 +1,25 @@
+/* Jacob Phillips, 10/03/2024 */
+
+body {
+    background-color: #ffffff;
+    color: #555555
+}
+header {
+    background-color: #29485d;
+    color: #ffffff;
+}
+nav {
+    background-color: #c6d02f;
+}
+h1 {
+    margin-bottom: 0;
+}
+h2 {
+    color: #407386;
+}
+dt {
+    color: #0194b5;
+}
+.web {
+    color: #0194b5;
+}
