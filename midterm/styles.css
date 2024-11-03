@@ -1,0 +1,114 @@
+/* Jacob Phillips, 10/21/2024 */
+
+html {
+    margin: 0 auto;
+    width: 97%;
+}
+
+body {
+    background-color: lightblue;
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    background-color: purple;
+    text-align: center;
+    color: hotpink;
+    text-shadow: 2px 0 1px black, -2px 0 1px black;
+}
+
+nav {
+    background-color: lightpink;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: -1.5em;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline;
+    background-color: lightblue;
+    margin: 0 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9932cc;
+}
+
+img {
+    display: block;
+    margin: 1.7em 0 0 36%;
+    border: 5px ridge black;
+}
+
+div {
+    margin: -1em auto 0 auto;
+    padding: 5px 0 5px 5px;
+    background-color: #8b008b;
+    box-shadow: 3px 2px 2px hotpink;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+div.picture {
+    background-image: url(images/blue-lasers.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+
+div.picture p a {
+    text-decoration: none;
+    color: #6aff6a;
+}
+
+div.picture a:hover {
+    color: lightblue;
+}
+
+div.picture ol {
+    list-style-type: upper-roman;
+}
+
+div.resume div.resume-entry {
+    margin-top: 1.5em;
+    box-shadow: none;
+}
+
+div.resume h3 {
+    margin-top: -0.3em;
+    margin-left: 0.2em;
+}
+
+div.resume dt {
+    margin-left: 0.5em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 0.625em;
+}
+
+#wrapper {
+    color: #ff69b4;
+    font-size: 0.9em;
+    margin-bottom: -0.95em;
+}
+
+footer p a{
+    color: #ff00f2;
+    font-size: 0.9em;
+}
