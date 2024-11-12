@@ -1,0 +1,141 @@
+/* Jacob Phillips, 11/12/2024 */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #0194b5;
+    color: #555555;
+    background-image: linear-gradient(#ffffff, #0194b5);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 120px;
+    text-align: left;
+    padding-top: 30px;
+    background-color: #29485d;
+    color: #ffffff;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+header a {
+    text-decoration: none;
+}
+header a:link, header a:visited {
+    color: white;
+}
+header a:hover {
+    color: #c6d02f;
+}
+nav {
+    padding: 1.5em;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1.5em;
+    font-size: 120%;
+    font-weight: bold;
+}
+nav ul {
+    margin: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+nav li {
+    padding: 1em;
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+    color: #0194b5;
+}
+nav a:hover {
+    color: #c6d02f;
+}
+nav a:visited {
+    color: #29485d;
+}
+#homehero {
+    height: 400px;
+    background-image: url(homehero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#trackshero {
+    height: 400px;
+    background-image: url(trackshero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#facultyhero {
+    height: 400px;
+    background-image: url(facultyhero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#wrapper {
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #000033;
+    box-shadow: 3px 3px #333333;
+}
+main {
+    padding: 1px 20px 20px 20px;
+    display: block;
+    background-color: white;
+    overflow: auto;
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3em;
+    margin-right: 35%;
+    letter-spacing: 0.2em;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+h2 {
+    text-align: center;
+    color: #407386;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px #cccccc;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #29485d;
+}
+section {
+    width: 25%;
+    padding-left: 2em;
+    padding-right: 2em;
+    float: left;
+}
+main ul {
+    list-style-image: url(marker.gif);
+}
+li {
+    line-height: 1.5;
+}
+dt {
+    color: #0194b5;
+}
+.web {
+    color: #0194b5;
+    font-weight: bold;
+}
+#contact {
+    font-size: 90%;
+}
+footer {
+    padding: 2em;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', serif;
+}
