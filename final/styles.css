@@ -1,0 +1,184 @@
+/* 
+    Filename: styles.css
+    Jacob Phillips, 11/21/2024
+*/
+
+
+html {
+    background-color: #ff7300;
+}
+body {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    background-color: #b2c3ff;
+    font-size: 190%;
+    font-family: "Dancing Script", cursive, sans-serif;
+}
+nav {
+    background-color: #37ff9e;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+    margin-top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 0.3em;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+}
+#wrapper { /* Wrapper is the main content in the website, marked by a div */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0.063em;
+    padding-bottom: 0.1em;
+    margin-top: -16px;
+    background-color: #dddddd;
+    font-size: 16px;
+    font-family: "Dancing Script", cursive, sans-serif;
+}
+img {
+    display: none;
+}
+h2 a {
+    color: #ff0000;
+    text-decoration: none;
+}
+h2.salutation { /* The salutation class marks the heading that leads up to the sources taken for that website */
+    text-align: center;
+}
+ul.sources li { /* Sources class assist the CSS so it doesn't get confused over which ul element to style */
+    max-width: 85%;
+    margin-bottom: 16px;
+    font-size: 0.8em;
+    list-style-type: none;
+}
+section {
+    margin-bottom: 2.5em;
+}
+section ol {
+    list-style-type: upper-roman;
+}
+h3 {
+    margin-top: 40px;
+}
+input[type=text] { /* Only text type inputs with text type are styled */
+    width: 200px;
+    padding-left: 16px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+input[type=reset] { /* Only reset type inputs with text type are styled */
+    margin-left: 90%;
+}
+input[type=checkbox] { /* Inputs with id environment */
+    margin-top: 15px;
+}
+div.radio { /* I have put my radio inputs and sibling label elements in a div because doing the input and label elements seperately can create a chaotic mess in my code */ 
+    margin-bottom: 0.5em;
+}
+div.submit { /* Had to put the button in a submit class div because there is no way that the CSS can center input elements alone */
+    text-align: center;
+}
+div.submit input[type=submit] { /* Div elements with class submit are nested within only inputs with type submit */
+    margin-top: 10px;
+    padding: 0.5em 0.8em;
+}
+select#chosen {
+    padding: 0.5em;
+}
+footer {
+    margin-top: 75px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+@media screen and (min-width: 675px) {
+    body {
+        margin: 16px;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: 0.1em;
+    }
+    img {
+        margin-top: 16px;
+        display: block;
+    }
+    img.science {
+        margin-top: -225px;
+        margin-bottom: 225px;
+        margin-left: 60%;
+    }
+    h2 a:hover {
+        color: #a9a9a9;
+    }
+    h2 a:visited {
+        color: #008b8b;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav ul li a:link {
+        color: #0000ff;
+    }
+    nav ul li a:hover {
+        color: #ffff00;
+    }
+    nav ul li a:active {
+        color: #ff0000;
+    }
+    nav ul li a:visited {
+        color: #191919;
+    }
+    #wrapper {
+        font-size: 115%;
+    }
+    div.radio { /* Input selectors have limitations, but not div elements because div elements are generic */
+        display: inline;
+    }
+    input[type=text] { /* Only inputs with text type are selected */
+        width: 250px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+    }
+    input[type=radio] { /* Inputs with id difficulty */
+       margin-left: 16px;
+       margin-right: auto;
+    }
+    ul.sources li {
+        list-style-type: disc;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    html {
+        background-image: linear-gradient(#ff6a00, #000000);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    body {
+        margin: 1em auto;
+        max-width: 930px;
+        box-shadow: 2px 2px 0.5px lightblue;
+    }
+    #wrapper {
+        display: block;
+    }
+    fieldset {
+        font-weight: 400;
+    }
+}

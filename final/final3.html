@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Filename: final3.html
+    Jacob Phillips, 11/27/2024
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAAWW Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Enthalpy as a Weird Word</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="final1.html">Home</a></li>
+            <li><a href="final2.html">Issue</a></li>
+            <li><a href="final3.html">Form</a></li>
+            <li><a href="final4.html">Credits</a></li>
+        </ul>
+    </nav>
+    <div id="wrapper">
+        <p class="disclaimer">This is a course deliverance focusing on one enthalpy topic, so choose wisely.</p>
+    <form name="enthalpy" method="post" id="enthalpy" action="demo.php">
+        <input type="reset">
+        <fieldset>
+            <legend>Contact information</legend>
+            <label for="name">What is your name?</label><br>
+            <input type="text" id="name" name="name" placeholder="e.g. John Doe"><br><br>
+            <label for="dob">What is your birth date?</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+            <label for="location">Where are you from?</label><br>
+            <input type="text" id="location" name="location">
+        </fieldset>
+        <fieldset>
+            <legend>Topics relating to enthalpy</legend>
+            <label for="chosen">What do you want to learn about enthalpy?</label><br><br>
+            <select id="chosen" name="chosen">
+                <option value="Heats of reaction">Heats of reaction</option>
+                <option value="Heats of formation">Heats of formation</option>
+                <option value="Hess's law">Hess's law</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label for="reason">Why do you want to learn about this topic? Be as specific as you can. (if you chose other, be specific on that as well)</label>
+            <p><textarea id="reason" name="reason" rows="5" cols="40" required="required"></textarea></p>
+        </fieldset>
+        <fieldset>
+            <legend>Difficulty</legend>
+            <label id="difficulty">What is your preferred difficulty level?</label><br><br>
+            <div class="radio">
+                <input type="radio" id="easy" name="easy" value="Easy">
+                <label for="easy">Easy</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="medium" name="medium" value="Medium">
+                <label for="medium">Medium</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="hard" name="hard" value="Hard">
+                <label for="hard">Hard</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="extreme" name="Extreme" value="Extreme">
+                <label for="extreme">Extreme</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="impossible" name="impossible" value="Impossible">
+                <label for="impossible">Impossible</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Environment</legend>
+            <label id="environment">What kind of envoronment are you most exited about in the enthalpy room? (Check all that apply)</label><br>
+            <input type="checkbox" id="class" name="class" value="Classroom">
+            <label for="class">Classroom</label><br>
+            <input type="checkbox" id="size" name="size" value="Size of the environment">
+            <label for="size">Size of the environment</label><br>
+            <input type="checkbox" id="math" name="math" value="The math">
+            <label for="math">The math</label>
+        </fieldset>
+        <fieldset>
+            <legend>Temperature (optional)</legend>
+            <label for="temperature">What is your temperature?</label>
+            <p class="temp">90 F<input type="range" id="temperature" name="temperature" min="90" max="105">105 F</p>
+        </fieldset>
+        <div class="submit">
+            <input type="submit" id="submit" name="submit">
+        </div>
+    </form>
+    <a href="https://www.youtube.com/watch?v=2ixEf2zpR8E" class="hess"><img src="images/hessslaw.jpg" height="80" width="150" alt="A sample enthalpy problem with Hess's law"></a>
+        <footer>
+            <h6>Copyright &copy; 2024 JCCC Web Development and Digital Media</h6>
+            <a href="mailto:jphil105@stumail.jccc.edu">jphil105@stumail.jccc.edu</a>
+        </footer>
+    </div>
+</body>
+</html>
